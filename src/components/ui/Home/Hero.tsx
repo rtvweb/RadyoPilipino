@@ -12,7 +12,7 @@ export function Hero({ onSelectTab }: HeroProps) {
       // style={{ backgroundImage: `url(${rpmgBanner})` }}
       aria-labelledby="hero-heading"
     >
-      <div className="absolute inset-0 bg-white opacity-70" />
+      <div className="absolute inset-0 bg-red-200 opacity-70" />
       <div className="relative z-10 text-center max-w-3xl mx-auto px-4 py-16">
       <img
         src={rpmgBanner}
